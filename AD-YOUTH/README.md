@@ -16,6 +16,7 @@
 7. Prettier - Code formatter
 8. TypeScript Vue Plugin (Volar)
 9. Vue Language Features (Volar)
+10. Vue VSCode Snippets
 
 설치되있으면 삭제해야할 Extensions List
 
