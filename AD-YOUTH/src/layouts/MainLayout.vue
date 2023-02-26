@@ -38,10 +38,16 @@
 <script>
 const linksList = [
   {
-    title: 'Typography',
+    title: '테스트페이지',
     caption: 'quasar.dev',
     icon: 'school',
     to: '/typography',
+  },
+  {
+    title: '취합',
+    caption: 'quasar.dev',
+    icon: 'school',
+    to: '/collect',
   },
 ];
 </script>

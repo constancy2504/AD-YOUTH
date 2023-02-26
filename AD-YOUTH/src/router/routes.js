@@ -5,6 +5,14 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') },
       { path: 'typography', component: () => import('pages/Typography.vue') },
+      { path: 'collect',
+        component: () => import('pages/Collect.vue'),
+        children: [
+          {
+            path: 'edu',
+            component: () => import('components/collect/Edu.vue')
+          }
+        ]},
     ],
   },
 
